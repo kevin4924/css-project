@@ -1,12 +1,13 @@
 body{
     margin: 0px;
     padding: 0px;
+    font-family: Roboto, sans-serif;
 }
 
 ul,
 nav{
     margin:0;
-    font-family: Roboto, sans-serif;
+    
     background-color: #1F2937;
     padding-top: 12px;
     color: #F9FAF8;
@@ -65,7 +66,6 @@ image{
 
 .content {
     font-size: 48px;
-    font-family: Roboto, sans-serif;
     color: #F9FAF8;
     
 }
@@ -79,32 +79,38 @@ button{
     color: white;
     font-weight:700;
     font-size: 16px;
-    font-family: Roboto, sans-serif;
     border-radius: 10px;
-    width:120px;
-    height:50px;
+    padding: 12px 24px;
     border:2px solid black;
 }
 
 div.info .container{
     display:flex;
-    justify-content: space-between;
-    
+    flex-wrap:wrap;
+    justify-content: center;
+    gap:36px;
+    align-items:flex-start;
 }
 
 .info img{
-    width:150px;
-    height:150px;
+    width:160px;
+    height:160px;
+    border-radius: 15px;
+    margin-bottom: 0px;
+    
+
 }
 
-
+.info p{
+    max-width: 160px;
+    height:auto;
+    text-align: center;
+    margin-top:0;
     
-    
-    
+}
 
 
 h1{
     text-align: center;
-    font-family: Roboto, sans-serif;
-
+    
 }
